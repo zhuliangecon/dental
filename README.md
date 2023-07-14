@@ -24,11 +24,7 @@ Dentists in the United States work in a variety of settings:
 
 4. **Payment Structure**: Dental insurance typically involves monthly premiums, annual deductibles, and copayments or coinsurance for certain services.
 
-\[
-\int_{-\infty}^{+\infty} e^{-x^2} dx = \sqrt{\pi}
-\]
-
 5. **Coverage**: Dental insurance coverage typically includes preventive and basic services and some major services. However, the specifics can vary depending on the insurance plan.
 
-[this paper](Documents/References/Nasseh%20et%20al._2020.pdf)
+[Nasse et al 2020](Documents/References/Nasseh%20et%20al._2020.pdf): An increase in commercial dental insurance market concentration leads to consolidation among dentists rather than owning their own practices. However, the impact of higher levels of dental insurance market concentration on a dentist's decision to affiliate with a dental management service organization is inconclusive.
 
