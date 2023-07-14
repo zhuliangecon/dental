@@ -24,6 +24,10 @@ Dentists in the United States work in a variety of settings:
 
 4. **Payment Structure**: Dental insurance typically involves monthly premiums, annual deductibles, and copayments or coinsurance for certain services.
 
+\[
+\int_{-\infty}^{+\infty} e^{-x^2} dx = \sqrt{\pi}
+\]
+
 5. **Coverage**: Dental insurance coverage typically includes preventive and basic services and some major services. However, the specifics can vary depending on the insurance plan.
 
 [this paper](Documents/References/Nasseh%20et%20al._2020.pdf)
