@@ -26,5 +26,5 @@ Dentists in the United States work in a variety of settings:
 
 5. **Coverage**: Dental insurance coverage typically includes preventive and basic services and some major services. However, the specifics can vary depending on the insurance plan.
 
-[this paper](Documents/Reference/Nasseh et al. - 2020 - Consolidation in the dental industry a closer look at dental payers and providers.pdf)
+[this paper](Documents/References/Nasseh et al. - 2020 - Consolidation in the dental industry a closer look at dental payers and providers.pdf)
 
