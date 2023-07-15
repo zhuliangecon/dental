@@ -27,6 +27,19 @@ Dentists in the United States work in a variety of settings:
 5. **Coverage**: Dental insurance coverage typically includes preventive and basic services and some major services. However, the specifics can vary depending on the insurance plan.
 
 
-## Some papers on this market
+## Some papers or materials on this market
 -. [Nasse et al 2020](Documents/References/Nasseh%20et%20al._2020.pdf): An increase in commercial dental insurance market concentration leads to consolidation among dentists rather than owning their own practices. However, the impact of higher levels of dental insurance market concentration on a dentist's decision to affiliate with a dental management service organization is inconclusive.
 
+-. [Kuttler 2017](https://www.groupdentistrynow.com/dso-group-blog/dso-case-study-reimbursement/): This is a testimonial from a client who is part of a Dental Management Service Organization (DMSO). They praise Apex for successfully negotiating with insurance companies to increase their reimbursement rates, which ranged from 8% to 26%. 
+
+-. [The Benefits Created by Dental Service Organizations](Documents/References/DSOFinal.pdf)
+
+-. [Practice Ownership Among Dentists Continues to Decline](https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/hpi/hpigraphic_practice_ownership_among_dentists_decline.pdf)
+
+-. [Contract Negotiations Guide by ADA](https://www.ada.org/resources/practice/dental-insurance/contract-negotiations-guide): rate is negotiable before contract. bilateral bargaining.
+
+-. [Nasseh, Bowblis, Vujicic 2021](Documents/References/Nasseh,%20Bowblis,%20Vujicic_2021.pdf): assumes a bilateral Nash bargaining game
+
+-. [The ins and outs of dental insurance](https://www.sciencedirect.com/science/article/abs/pii/S0002817714644111?via%3Dihub): NO subscription 
+
+-. [The reimbursement crisis is real. What are you doing about it?](https://www.dentaleconomics.com/macro-op-ed/article/16386229/the-reimbursement-crisis-is-real-what-are-you-doing-about-it): insurer has higher bargaining power
