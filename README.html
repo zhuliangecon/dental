@@ -410,12 +410,126 @@ their own practices. However, the impact of higher levels of dental
 insurance market concentration on a dentist’s decision to affiliate with
 a dental management service organization is inconclusive.</p>
 <p>-. <a href="https://www.groupdentistrynow.com/dso-group-blog/dso-case-study-reimbursement/">Kuttler
-2017</a>This is a testimonial from a client who is part of a Dental
+2017</a>: This is a testimonial from a client who is part of a Dental
 Management Service Organization (DMSO). They praise Apex for
 successfully negotiating with insurance companies to increase their
 reimbursement rates, which ranged from 8% to 26%.</p>
 <p>-. <a href="Documents/References/DSOFinal.pdf">The Benefits Created
 by Dental Service Organizations</a></p>
+<p>-. <a href="https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/hpi/hpigraphic_practice_ownership_among_dentists_decline.pdf">Practice
+Ownership Among Dentists Continues to Decline</a></p>
+<p>-. <a href="https://www.ada.org/resources/practice/dental-insurance/contract-negotiations-guide">Contract
+Negotiations Guide by ADA</a>: rate is negotiable before contract.
+bilateral bargaining.</p>
+<p>-. <a href="Documents/References/Nasseh,%20Bowblis,%20Vujicic_2021.pdf">Nasseh,
+Bowblis, Vujicic 2021</a>: assumes a bilateral Nash bargaining game</p>
+<p>-. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0002817714644111?via%3Dihub">The
+ins and outs of dental insurance</a>: NO subscription</p>
+<p>-. <a href="https://www.dentaleconomics.com/macro-op-ed/article/16386229/the-reimbursement-crisis-is-real-what-are-you-doing-about-it">The
+reimbursement crisis is real. What are you doing about it?</a>: insurer
+has higher bargaining power</p>
+</div>
+</div>
+<div id="data-source" class="section level1">
+<h1>Data Source</h1>
+<div id="npi-national-provider-identifier" class="section level2">
+<h2>NPI (National Provider Identifier)</h2>
+<p>The National Provider Identifier (NPI) is a unique 10-digit
+identification number issued to health care providers in the United
+States by the Centers for Medicare and Medicaid Services (CMS). The NPI
+has replaced the unique physician identification number (UPIN) as the
+required identifier for Medicare services, and is used by other
+healthcare payers, including commercial healthcare insurance
+companies.</p>
+<p>The NPI Registry, which is part of the official NPI database,
+contains information about the healthcare provider, such as the
+provider’s name, specialty (taxonomy), and practice address. Each
+healthcare provider, including individual dentists, has a unique
+NPI.</p>
+<p><a href="https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/downloads/npi-what-you-need-to-know.pdf">NPI:
+What You Need to Know</a> An booklet teaches providers about the
+National Provider Identifier (NPI).</p>
+<p>The NPI database can be very useful for research on the dental
+insurance market because it provides detailed information on individual
+dental providers. Specifically, the NPI database includes a taxonomy
+code that indicates the provider’s specialty.</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dentistry Specialty</th>
+<th>Taxonomy Code</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dentist</td>
+<td>122300000X</td>
+</tr>
+<tr class="even">
+<td>    General Practice</td>
+<td>1223G0001X</td>
+</tr>
+<tr class="odd">
+<td>    Dental Public Health</td>
+<td>1223D0001X</td>
+</tr>
+<tr class="even">
+<td>    Endodontics</td>
+<td>1223E0200X</td>
+</tr>
+<tr class="odd">
+<td>    Oral and Maxillofacial Pathology</td>
+<td>1223P0106X</td>
+</tr>
+<tr class="even">
+<td>    Oral and Maxillofacial Radiology</td>
+<td>1223X0008X</td>
+</tr>
+<tr class="odd">
+<td>    Oral and Maxillofacial Surgery</td>
+<td>1223S0112X</td>
+</tr>
+<tr class="even">
+<td>    Orthodontics and Dentofacial Orthopedics</td>
+<td>1223X0400X</td>
+</tr>
+<tr class="odd">
+<td>    Pediatric Dentistry</td>
+<td>1223P0221X</td>
+</tr>
+<tr class="even">
+<td>    Periodontics</td>
+<td>1223P0300X</td>
+</tr>
+<tr class="odd">
+<td>    Prosthodontics</td>
+<td>1223P0700X</td>
+</tr>
+</tbody>
+</table>
+<div id="data-processing" class="section level3">
+<h3>Data Processing</h3>
+<p>To focus our research, we filtered the National Provider Identifier
+(NPI) database from 2005 to 2023 to extract specific data related to
+dentists practicing in New Hampshire.</p>
+<p>Our filter criteria included:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Healthcare Provider Taxonomy</strong>: Records with a
+Taxonomy code related to “Dentist” (e.g., 122300000X for general
+dentists, 1223G0001X for general practice, and other specific dental
+specializations).</p></li>
+<li><p><strong>Provider Business Practice Location Address State
+Name</strong>: Records indicating the state of the provider’s business
+practice location as “New Hampshire” (NH).</p></li>
+</ol>
+<p>Through this method, we compiled a focused dataset of dental
+healthcare providers in New Hampshire spanning the years 2005 to
+2023.</p>
+</div>
 </div>
 </div>
 

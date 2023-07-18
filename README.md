@@ -43,3 +43,44 @@ Dentists in the United States work in a variety of settings:
 -. [The ins and outs of dental insurance](https://www.sciencedirect.com/science/article/abs/pii/S0002817714644111?via%3Dihub): NO subscription 
 
 -. [The reimbursement crisis is real. What are you doing about it?](https://www.dentaleconomics.com/macro-op-ed/article/16386229/the-reimbursement-crisis-is-real-what-are-you-doing-about-it): insurer has higher bargaining power
+
+# Data Source
+## NPI (National Provider Identifier) 
+
+The National Provider Identifier (NPI) is a unique 10-digit identification number issued to health care providers in the United States by the Centers for Medicare and Medicaid Services (CMS). The NPI has replaced the unique physician identification number (UPIN) as the required identifier for Medicare services, and is used by other healthcare payers, including commercial healthcare insurance companies.
+
+The NPI Registry, which is part of the official NPI database, contains information about the healthcare provider, such as the provider’s name, specialty (taxonomy), and practice address. Each healthcare provider, including individual dentists, has a unique NPI.
+
+[NPI: What You Need to Know](https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/downloads/npi-what-you-need-to-know.pdf) An booklet teaches providers about the National Provider Identifier (NPI). 
+
+[NPI Downlaod page](https://download.cms.gov/nppes/NPI_Files.html)
+
+The NPI database can be very useful for research on the dental insurance market because it provides detailed information on individual dental providers. Specifically, the NPI database includes a taxonomy code that indicates the provider's specialty.
+
+| Dentistry Specialty | Taxonomy Code |
+|---|---|
+| Dentist | 122300000X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Dental Public Health | 1223D0001X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Dentist Anesthesiologist | 1223D0004X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Endodontics | 1223E0200X |
+| &nbsp;&nbsp;&nbsp;&nbsp;General Practice | 1223G0001X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Oral and Maxillofacial Pathology | 1223P0106X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Oral and Maxillofacial Radiology | 1223X0008X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Oral and Maxillofacial Surgery | 1223S0112X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Orthodontics and Dentofacial Orthopedics | 1223X0400X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Pediatric Dentistry | 1223P0221X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Periodontics | 1223P0300X |
+| &nbsp;&nbsp;&nbsp;&nbsp;Prosthodontics | 1223P0700X |
+
+### Data Processing
+
+To focus our research, we filtered the National Provider Identifier (NPI) database from 2005 to 2023 to extract specific data related to dentists practicing in New Hampshire.
+
+Our filter criteria included:
+
+1. **Healthcare Provider Taxonomy**: Records with a Taxonomy code related to "Dentist" (e.g., 122300000X for general dentists, 1223G0001X for general practice, and other specific dental specializations).
+
+2. **Provider Business Practice Location Address State Name**: Records indicating the state of the provider's business practice location as "New Hampshire" (NH).
+
+Through this method, we compiled a focused dataset of dental healthcare providers in New Hampshire spanning the years 2005 to 2023.
+
