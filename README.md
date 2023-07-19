@@ -89,7 +89,7 @@ Through this method, we compiled a focused dataset of dental healthcare provider
 #### 1. Lack of Affiliation Link
 In the National Provider Identifier (NPI) database, both individual and organizational healthcare providers are assigned unique identifiers. However, the database does not explicitly delineate the affiliation between individual providers and their associated organizations.
 
-While both an individual and an organization may be present in the database, their affiliation is often only indirectly inferred, such as by matching addresses. (Example: search 33 BROAD ST on [NIP.csv](Data/Processed/NIP.csv)) This method is not consistently accurate and can lead to potential mismatches or non-match.
+While both an individual and an organization may be present in the database, their affiliation is often only indirectly inferred, such as by matching addresses. (Example: search 33 BROAD ST on [NIP.csv](Data/Processed/NPI.csv)) This method is not consistently accurate and can lead to potential mismatches or non-match.
 
 > **Note:** Although there is a variable named "Affiliation" in the endpoint data, the endpoint data is not a full sample and contains repeated records.
 
