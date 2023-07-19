@@ -84,3 +84,16 @@ Our filter criteria included:
 
 Through this method, we compiled a focused dataset of dental healthcare providers in New Hampshire spanning the years 2005 to 2023.
 
+### Problems
+
+#### 1. Lack of Affiliation Link
+In the National Provider Identifier (NPI) database, both individual and organizational healthcare providers are assigned unique identifiers. However, the database does not explicitly delineate the affiliation between individual providers and their associated organizations.
+
+While both an individual and an organization may be present in the database, their affiliation is often only indirectly inferred, such as by matching addresses. This method is not consistently accurate and can lead to potential mismatches.
+
+> **Note:** Although there is a variable named "Affiliation" in the endpoint data, the endpoint data is not a full sample and contains repeated records.
+
+#### 2. Snapshot Data, Not Historical
+The NPI database, currently available for direct download, only provides the latest snapshot data for each NPI, devoid of any historical data. A potential solution could involve directly contacting CMS to inquire about the possibility of obtaining the NPI database from the past few years. Considering that this database is updated monthly, it should be adequate to obtain the version from the same month for each year.
+
+**CMS Email:** [NPIFiles@cms.hhs.gov](mailto:NPIFiles@cms.hhs.gov)
