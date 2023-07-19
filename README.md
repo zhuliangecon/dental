@@ -40,7 +40,7 @@ Dentists in the United States work in a variety of settings:
 
 -. [Nasseh, Bowblis, Vujicic 2021](Documents/References/Nasseh,%20Bowblis,%20Vujicic_2021.pdf): assumes a bilateral Nash bargaining game
 
--. [The ins and outs of dental insurance](https://www.sciencedirect.com/science/article/abs/pii/S0002817714644111?via%3Dihub): NO subscription 
+-. [The ins and outs of dental insurance](https://www.sciencedirect.com/science/article/abs/pii/S0002817714644111?via%3Dihub): NO subscription, $30 purchase.
 
 -. [The reimbursement crisis is real. What are you doing about it?](https://www.dentaleconomics.com/macro-op-ed/article/16386229/the-reimbursement-crisis-is-real-what-are-you-doing-about-it): insurer has higher bargaining power
 
@@ -89,7 +89,7 @@ Through this method, we compiled a focused dataset of dental healthcare provider
 #### 1. Lack of Affiliation Link
 In the National Provider Identifier (NPI) database, both individual and organizational healthcare providers are assigned unique identifiers. However, the database does not explicitly delineate the affiliation between individual providers and their associated organizations.
 
-While both an individual and an organization may be present in the database, their affiliation is often only indirectly inferred, such as by matching addresses. This method is not consistently accurate and can lead to potential mismatches.
+While both an individual and an organization may be present in the database, their affiliation is often only indirectly inferred, such as by matching addresses. (Example: search 33 BROAD ST on [NIP.csv](Data/Processed/NIP.csv)) This method is not consistently accurate and can lead to potential mismatches or non-match.
 
 > **Note:** Although there is a variable named "Affiliation" in the endpoint data, the endpoint data is not a full sample and contains repeated records.
 
